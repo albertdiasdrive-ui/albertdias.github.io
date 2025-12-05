@@ -1,5 +1,5 @@
 site_name: albertdias.github.io
-site_description: Site pessoal para textos, notas de estudo e apostilas
+site_description: Site para textos pessoais, notas de estudo e apostilas
 site_author: Albert Dias
 
 theme:
@@ -18,6 +18,6 @@ nav:
   - Textos: textos.md
   - Apostilas: apostilas.md
   - Relatórios: relatorios.md
-  - Artigos: artigos.md
-  - Materiais: materiais.md
+  - Artigos: Artigos.md
+  - Materiais: material.md
 
