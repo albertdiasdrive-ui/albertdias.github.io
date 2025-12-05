@@ -1,3 +1,12 @@
-# Meu site
+# Bem-vindo ao meu site!
 
-Bem-vindo ao meu site feito com MkDocs Material!
+Este é meu site pessoal para postar:
+
+- Textos
+- Notas de estudo
+- Apostilas
+- Relatórios
+- Artigos
+- Materiais diversos
+
+Navegue pelo menu para acessar os conteúdos!
