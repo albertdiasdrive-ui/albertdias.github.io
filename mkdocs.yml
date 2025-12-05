@@ -1,11 +1,23 @@
-site_name: Albert Dias — Meu Site
+site_name: albertdias.github.io
+site_description: Site pessoal para textos, notas de estudo e apostilas
+site_author: Albert Dias
+
+theme:
+  name: material
+  language: pt-BR
+  features:
+    - navigation.instant
+    - navigation.sections
+    - navigation.expand
+    - toc.integrate
+    - header.autohide
+    - content.code.copy
 
 nav:
   - Início: index.md
-  - Posts:
-      - posts/index.md
-  - Materiais:
-      - Materiais/index.md
+  - Textos: textos.md
+  - Apostilas: apostilas.md
+  - Relatórios: relatorios.md
+  - Artigos: artigos.md
+  - Materiais: materiais.md
 
-theme:
-  name: mkdocs
