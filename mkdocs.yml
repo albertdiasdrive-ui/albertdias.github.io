@@ -1,6 +1,11 @@
-site_name: Site do Albert Dias
-theme:
-  name: material
+site_name: Albert Dias — Meu Site
 
 nav:
   - Início: index.md
+  - Posts:
+      - posts/index.md
+  - Materiais:
+      - Materiais/index.md
+
+theme:
+  name: mkdocs
