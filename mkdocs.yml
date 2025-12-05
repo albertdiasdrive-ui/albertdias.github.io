@@ -1,0 +1,6 @@
+site_name: Site do Albert Dias
+theme:
+  name: material
+
+nav:
+  - Início: index.md
