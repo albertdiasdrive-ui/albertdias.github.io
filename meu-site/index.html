@@ -1,40 +1,193 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Física & Estruturas Matemáticas</title>
+    <title>Albert Dias — Textos & Estudos</title>
 
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=JetBrains+Mono:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        /* -----------------------
+           ESTILOS GERAIS
+        ------------------------- */
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f8f9fa;
+            color: #222;
+        }
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="styles/style.css">
+        a {
+            text-decoration: none;
+            color: #0055aa;
+        }
+
+        /* -----------------------
+           HEADER
+        ------------------------- */
+        header {
+            background: #ffffff;
+            padding: 15px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        header .logo {
+            font-size: 1.4rem;
+            font-weight: bold;
+        }
+
+        nav a {
+            margin-left: 20px;
+            font-weight: 500;
+        }
+
+        /* -----------------------
+           HERO (SEÇÃO DE DESTAQUE)
+        ------------------------- */
+        .hero {
+            text-align: center;
+            padding: 100px 20px;
+            background: linear-gradient(135deg, #e5ecf7, #f6fafe);
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 40px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 25px;
+            margin: 5px;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: bold;
+        }
+
+        .btn-primary {
+            background: #0055aa;
+            color: #fff;
+        }
+
+        .btn-secondary {
+            background: #ffffff;
+            border: 2px solid #0055aa;
+            color: #0055aa;
+        }
+
+        /* -----------------------
+           SEÇÕES PADRÃO
+        ------------------------- */
+        section {
+            padding: 60px 40px;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+
+        /* -----------------------
+           FOOTER
+        ------------------------- */
+        footer {
+            background: #222;
+            color: #eee;
+            text-align: center;
+            padding: 25px;
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: #9cd1ff;
+        }
+    </style>
 </head>
+
 <body>
 
-    <!-- NAVBAR -->
-    <header class="navbar">
-        <div class="logo">Albert Dias — Arquivos & Pesquisa</div>
-        <nav class="menu">
-            <a href="#">Início</a>
+    <!-- HEADER -->
+    <header>
+        <div class="logo"> UnSífiso - Albert S. Dias </div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Estudos</a>
             <a href="#">Artigos</a>
-            <a href="#">Estudos & Notas</a>
             <a href="#">Relatórios</a>
-            <a href="#">Apostilas</a>
+            <a href="#">Notas</a>
             <a href="#">Biblioteca</a>
-            <a href="#">Sobre</a>
+            <a href="#">Sobre mim</a>
+            <a href="#">Contato</a>
         </nav>
     </header>
 
     <!-- HERO -->
     <section class="hero">
-        <h1>Física & Estruturas Matemáticas</h1>
-        <p>Estudos, anotações, artigos, relatórios e materiais desenvolvidos por mim — reunidos em um espaço dedicado à compreensão pequena da realidade física e matemática; além de assuntos variados como ciências sociais.</p>
+        <h1>Textos, estudos e materiais de autoria própria</h1>
+        <p>Anotações, apostilas, artigos, exercícios, relatórios e conteúdos organizados para apoiar seus estudos.</p>
 
-        <a class="hero-btn" href="#">Explorar Arquivos</a>
+        <a href="#" class="btn btn-primary">Explorar Biblioteca</a>
+        <a href="#" class="btn btn-secondary">Ver Estudos Recentes</a>
     </section>
 
-    <script src="scripts/main.js"></script>
+    <!-- Quem sou eu -->
+    <section>
+        <h2>Quem sou eu?</h2>
+        <p>
+            Sou Albert Dias, graduando em física e pesquisador independente.  
+            Criei este espaço para publicar meus estudos, anotações, relatórios, textos e 
+            materiais didáticos — tudo de forma clara, organizada e acessível.
+        </p>
+
+        <p><strong> Contato:</strong> santosalb175@gmail.com</p>
+    </section>
+
+    <!-- Seção: Estudos Recentes -->
+    <section>
+        <h2>Estudos Recentes</h2>
+        <div class="cards">
+            <div class="card">Mêcanica clássica</div>
+            <div class="card">Cálculo vetorial e geometria diferencial</div>
+            <div class="card">Progamação em C</div>
+        </div>
+    </section>
+
+    <!-- Seção: Biblioteca -->
+    <section>
+        <h2>Biblioteca</h2>
+        <p>Materiais adicionais, PDFs públicos, links úteis, recursos especiais inspirados em MIT, NASA e Black Quantum.</p>
+        <a href="#" class="btn btn-primary">Acessar Biblioteca</a>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        © 2025 — Albert S. Dias · Todos os direitos reservados  
+        <br>
+        E-mail: <a href="mailto:santosalb175@gmail.com">santosalb175@gmail.com</a>
+    </footer>
+
 </body>
 </html>
+
