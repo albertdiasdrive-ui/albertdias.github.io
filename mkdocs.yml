@@ -15,9 +15,9 @@ theme:
 
 nav:
   - Início: index.md
-  - Textos: textos.md
-  - Apostilas: apostilas.md
-  - Relatórios: relatorios.md
-  - Artigos: Artigos.md
-  - Materiais: material.md
-
+  - Textos: textos/index.md
+  - Artigos: artigos/index.md
+  - Apostilas: apostilas/index.md
+  - Relatórios: relatorios/index.md
+  - Materiais: materiais/index.md
+  - Posts: posts/index.md
