@@ -1,0 +1,67 @@
+/* ----- Fundo estilo Instagram ----- */
+:root {
+  --color-bg: #121212;
+  --color-card: #1c1c1c;
+  --color-border: #2a2a2a;
+  --color-text: #ffffff;
+  --color-sub: #b3b3b3;
+  --color-instagram-blue: #0095f6;
+}
+
+.md-content {
+  background-color: var(--color-bg) !important;
+}
+
+/* Texto */
+.md-content, .md-typeset {
+  color: var(--color-text) !important;
+}
+
+/* Links azul Instagram */
+a {
+  color: var(--color-instagram-blue) !important;
+}
+
+/* Cards estilo feed */
+.card {
+  background: var(--color-card);
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  padding: 15px;
+  margin-bottom: 25px;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.35);
+}
+
+/* Ícones laterais maiores (estilo app) */
+.md-sidebar--primary {
+  width: 90px !important;
+}
+
+.md-nav__link {
+  font-size: 1.2rem;
+  padding: 20px 10px;
+}
+
+/* Stories no topo */
+.stories {
+  display: flex;
+  overflow-x: auto;
+  padding: 10px;
+  gap: 15px;
+}
+
+.story {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  background:
+    linear-gradient(#121212, #121212) padding-box,
+    linear-gradient(60deg, #e1306c, #f77737, #fcdf8a) border-box;
+}
+
+.story img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
