@@ -1,2 +1,0 @@
-# Artigos
-Lista de artigos.
