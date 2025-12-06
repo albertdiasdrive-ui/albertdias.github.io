@@ -1,32 +1,153 @@
-/* --- PÁGINA SOBRE --- */
+/* ----------------------------------------------
+   PALETA E ESTILOS GERAIS
+---------------------------------------------- */
 
-.sobre-container {
-    max-width: 900px;
-    margin: 60px auto;
-    padding: 20px;
-    color: var(--text);
+:root {
+    --preto: #0d0d0d;
+    --grafite: #1a1a1a;
+    --texto: #d9d9d9;
+    --ciano: #00aaff;
+    --ciano-claro: #33bbff;
+    --fonte: "Inter", Arial, Helvetica, sans-serif;
 }
 
-.sobre-container h1 {
-    font-family: "JetBrains Mono", monospace;
-    color: var(--accent);
-    font-size: 2rem;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-.sobre-container p {
-    margin: 15px 0;
-    line-height: 1.7;
-    font-size: 1.1rem;
-}
-
-.sobre-container ul {
-    margin: 20px 0;
-    padding-left: 25px;
-}
-
-.sobre-container li {
-    margin: 8px 0;
+body {
+    margin: 0;
+    font-family: var(--fonte);
+    background-color: var(--preto);
+    color: var(--texto);
     line-height: 1.6;
+}
+
+/* ----------------------------------------------
+   LINKS
+---------------------------------------------- */
+
+a {
+    color: var(--ciano);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--ciano-claro);
+}
+
+
+/* ----------------------------------------------
+   CABEÇALHO
+---------------------------------------------- */
+
+header {
+    background: var(--grafite);
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #111;
+    position: sticky;
+    top: 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+    color: var(--ciano);
+}
+
+nav a {
+    margin-left: 20px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: var(--ciano-claro);
+}
+
+
+/* ----------------------------------------------
+   SEÇÕES
+---------------------------------------------- */
+
+section {
+    padding: 50px 40px;
+    border-bottom: 1px solid #111;
+}
+
+h2 {
+    color: var(--ciano);
+    font-size: 28px;
+}
+
+
+/* ----------------------------------------------
+   CARTÕES (Estudos, Biblioteca, etc.)
+---------------------------------------------- */
+
+.cartoes {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.cartao {
+    background: #111;
+    padding: 20px;
+    border: 1px solid #0f2a36;
+    border-radius: 6px;
+    width: 260px;
+    transition: 0.25s;
+}
+
+.cartao:hover {
+    border-color: var(--ciano);
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+
+/* ----------------------------------------------
+   BOTÕES
+---------------------------------------------- */
+
+.btn {
+    display: inline-block;
+    padding: 10px 18px;
+    border-radius: 6px;
+    margin-top: 10px;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.btn-primario {
+    background: var(--ciano);
+    color: black;
+}
+
+.btn-primario:hover {
+    background: var(--ciano-claro);
+}
+
+.btn-secundario {
+    border: 1px solid var(--ciano);
+}
+
+.btn-secundario:hover {
+    background: #002b3a;
+}
+
+
+/* ----------------------------------------------
+   RODAPÉ
+---------------------------------------------- */
+
+footer {
+    text-align: center;
+    padding: 30px;
+    color: #888;
+    border-top: 1px solid #111;
+}
+
+footer a {
+    color: var(--ciano);
 }
