@@ -12,6 +12,7 @@ theme:
 
 nav:
   - Início: index.md
+  - Sobre mim: sobre/index.md
   - Textos:
       - Lista: textos.md
       - Pasta: Textos/
