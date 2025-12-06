@@ -1,0 +1,32 @@
+/* --- PÁGINA SOBRE --- */
+
+.sobre-container {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 20px;
+    color: var(--text);
+}
+
+.sobre-container h1 {
+    font-family: "JetBrains Mono", monospace;
+    color: var(--accent);
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.sobre-container p {
+    margin: 15px 0;
+    line-height: 1.7;
+    font-size: 1.1rem;
+}
+
+.sobre-container ul {
+    margin: 20px 0;
+    padding-left: 25px;
+}
+
+.sobre-container li {
+    margin: 8px 0;
+    line-height: 1.6;
+}
