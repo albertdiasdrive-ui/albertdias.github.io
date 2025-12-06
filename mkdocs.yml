@@ -4,11 +4,15 @@ site_author: Albert S. Dias
 
 theme:
   name: material
-  language: pt-BR
   palette:
-    scheme: slate
-    primary: blue
-    accent: light blue
+    - scheme: slate
+      primary: black
+      accent: blue
+  features:
+    - navigation.expand
+    - navigation.instant
+    - navigation.sections
+    - navigation.footer
 
 nav:
   - Início: index.md
