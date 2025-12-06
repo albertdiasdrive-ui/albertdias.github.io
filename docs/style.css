@@ -1,79 +1,68 @@
-body {
+/* Fonte Google similar ao Instagram */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+* {
     margin: 0;
-    background: #000;
-    font-family: Arial, sans-serif;
-    color: #fff;
-    display: flex;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
 }
 
-/* MENU LATERAL */
-.sidebar {
-    width: 220px;
-    background: #000;
-    border-right: 1px solid #222;
-    height: 100vh;
-    padding: 25px 15px;
-    position: fixed;
-}
-
-.sidebar .logo {
-    font-size: 22px;
-    font-weight: bold;
-    margin-bottom: 30px;
-}
-
-.sidebar nav a {
-    display: block;
-    color: #fff;
-    padding: 12px 8px;
-    text-decoration: none;
-    font-size: 16px;
-    border-radius: 10px;
-}
-
-.sidebar nav a:hover {
-    background: #111;
-    transition: 0.3s;
-}
-
-/* MAIN CONTENT */
-main {
-    margin-left: 250px;
-    padding: 30px;
-    width: 100%;
-}
-
-/* STORIES */
-.stories {
-    display: flex;
-    gap: 15px;
-    margin-bottom: 30px;
-}
-
-.story img {
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    border: 3px solid transparent;
-    background-image: linear-gradient(45deg, #ff0050, #f9b233);
-    padding: 3px;
-}
-
-/* POSTS */
-.post {
-    background: #111;
+body {
+    background: #ffffff;
     padding: 20px;
-    border-radius: 12px;
-    width: 550px;
+    color: #222;
 }
 
-.post-img {
-    width: 100%;
-    border-radius: 12px;
-    margin-top: 10px;
+header {
+    text-align: center;
+    margin-bottom: 40px;
 }
 
-.caption {
-    margin-top: 10px;
-    color: #ddd;
+header h1 {
+    font-size: 2.3rem;
+    font-weight: 600;
+}
+
+header .sub {
+    font-size: 1rem;
+    margin-top: 5px;
+    color: #555;
+}
+
+main {
+    max-width: 900px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    border: 1px solid #e6e6e6;
+    padding: 20px;
+    border-radius: 14px;
+    transition: 0.2s;
+    background: #fff;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 18px rgba(0,0,0,0.06);
+}
+
+.card h2 {
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.card p {
+    color: #666;
+    margin-bottom: 12px;
+}
+
+.card a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #0095f6;
 }
