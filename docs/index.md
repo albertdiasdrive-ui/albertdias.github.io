@@ -2,11 +2,12 @@
 
 Este é meu site pessoal deticado a postar objetos de diversos tipos e de minha autoria. Aqui você entcontrará:
 
-- Textos
-- Notas de estudo
-- Apostilas
-- Relatórios
-- Artigos
-- Materiais diversos
+- [Textos](textos.md)
+- [Notas de estudo / Apostilas](apostilas.md)
+- [Relatórios](relatorios.md)
+- [Artigos](Artigos.md)
+- [Materiais diversos](Materiais/)
 
-Navegue pelo menu para acessar os conteúdos!
+---
+
+Navegue pelos links acima para acessar os conteúdos!
