@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    background: #000;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    display: flex;
+}
+
+/* MENU LATERAL */
+.sidebar {
+    width: 220px;
+    background: #000;
+    border-right: 1px solid #222;
+    height: 100vh;
+    padding: 25px 15px;
+    position: fixed;
+}
+
+.sidebar .logo {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.sidebar nav a {
+    display: block;
+    color: #fff;
+    padding: 12px 8px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.sidebar nav a:hover {
+    background: #111;
+    transition: 0.3s;
+}
+
+/* MAIN CONTENT */
+main {
+    margin-left: 250px;
+    padding: 30px;
+    width: 100%;
+}
+
+/* STORIES */
+.stories {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.story img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    background-image: linear-gradient(45deg, #ff0050, #f9b233);
+    padding: 3px;
+}
+
+/* POSTS */
+.post {
+    background: #111;
+    padding: 20px;
+    border-radius: 12px;
+    width: 550px;
+}
+
+.post-img {
+    width: 100%;
+    border-radius: 12px;
+    margin-top: 10px;
+}
+
+.caption {
+    margin-top: 10px;
+    color: #ddd;
+}
